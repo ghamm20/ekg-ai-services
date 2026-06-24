@@ -13,6 +13,33 @@ header {
 header h1 {
     color: #2c3e50;
 }
+.cta {
+    text-align: center;
+    margin: 30px 0;
+    padding: 20px;
+    background: #fff8e1;
+    border-radius: 8px;
+}
+.cta h2 {
+    color: #2c3e50;
+    margin-top: 0;
+}
+.cta p {
+    margin: 10px 0;
+}
+.button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 24px;
+    background: #27ae60;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.button:hover {
+    background: #219150;
+}
 .value-prop, .case-studies, .lead-magnet {
     margin-bottom: 30px;
 }
