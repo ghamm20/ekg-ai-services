@@ -52,8 +52,8 @@ a {
 }
 .nav {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
 }
 .brand {
     font-weight: 700;
@@ -135,7 +135,7 @@ a {
 
 /* Section */
 .section {
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
 }
 .section-heading {
     text-align: center;
@@ -157,12 +157,13 @@ a {
 
 /* Offer Grid */
 #start {
+    margin-top: 3rem;
     margin-bottom: 4rem;
 }
 .offer-grid {
     display: grid;
     gap: 2rem;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 .offer-card {
     background-color: var(--bg-card);
@@ -221,10 +222,15 @@ a {
 .card-note {
     font-size: 0.875rem;
     color: var(--text-muted);
-    margin: 0 1.5rem 1.5rem;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
 }
 
 /* Features */
+.section .container {
+    /* already defined */
+}
 .feature-grid {
     display: grid;
     gap: 1.5rem;
