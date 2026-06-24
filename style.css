@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+header h1 {
+    color: #2c3e50;
+}
+.value-prop, .case-studies, .lead-magnet {
+    margin-bottom: 30px;
+}
+.case {
+    background: #f8f9fa;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-left: 4px solid #3498db;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+}
+input, button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+button {
+    background: #3498db;
+    color: white;
+    cursor: pointer;
+}
+button:hover {
+    background: #2980b9;
+}
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #7f8c8d;
+    margin-top: 40px;
+}
